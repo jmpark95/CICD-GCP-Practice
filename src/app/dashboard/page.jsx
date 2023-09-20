@@ -6,6 +6,7 @@ export default function page() {
          <Link href="/">Home</Link>
          <h1>Dashboard</h1>
          <div>/dashboard/</div>
+         <div>This code was written after failing CI workflow and fixing up the problem</div>
       </>
    );
 }
