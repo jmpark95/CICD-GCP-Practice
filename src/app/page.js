@@ -8,6 +8,7 @@ export default function Page() {
          <div>Testing CD for cloud build and cloud run</div>
          <div>changed cloud build trigger to only trigger on push to main</div>
          <div>Testing what happens when cloud build fails. Deliberately failing lint</div>
+         <div>Fixed lint</div>
       </>
    );
 }
