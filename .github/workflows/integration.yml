@@ -1,13 +1,11 @@
 name: CI Workflow
 
 on:
-   # push:
-   #   branches: [ "main" ]
    pull_request:
       branches: ["main"]
 
 jobs:
-   build:
+   test_and_build:
       runs-on: ubuntu-latest
 
       strategy:
