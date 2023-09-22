@@ -6,6 +6,7 @@ export default function Page() {
          <Link href="/dashboard">Dashboard</Link>
          <h1>Home page</h1>
          <div>Testing CD for cloud build and cloud run</div>
+         <div>changed cloud build trigger to only trigger on push to main</div>
       </>
    );
 }
